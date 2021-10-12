@@ -1,0 +1,29 @@
+/* Centre your whole page, using 65% as your width. */
+.content {
+  max-width: 65%;
+  margin: auto;
+}
+/* Make your unordered list have no bullets, and change there display to inline-block and no padding . */
+/* Set the background colour of your navigation to “orangered”, and give it 3px padding. */
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    padding: 0 px;
+    
+}
+.navigation {
+    background-color: orangered;
+    padding: 3px;
+}
+/* When links on the page are hovered over, the text should change to white. */
+
+a:hover {
+color: white;
+}
+/* All links should have no text-decoration and be black. (hent : see text-decoration ) */
+a {
+    text-decoration: none;
+    color: black;
+}
