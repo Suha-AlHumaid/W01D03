@@ -2,11 +2,15 @@ body {
     margin-top: 50px;
     margin-bottom: 150px;
 }
-
+p {
+    font-size: 15px;
+}
+div.cont{
+    padding-left: 7px;
+}
 /* Centre your whole page, using 65% as your width. */
 .content {
   max-width: 65%;
-
   margin: auto;
 }
 /* Make your unordered list have no bullets, and change there display to inline-block and no padding . */
@@ -22,7 +26,7 @@ li {
     padding: 3px;
     
 }
-nav.navigation {
+.navigation {
     background-color: orangered;
 
 }
@@ -31,7 +35,7 @@ nav.navigation {
 a:hover {
 color: white;
 }
-/* All links should have no text-decoration and be black. (hent : see text-decoration ) */
+/* All links should have no text-decoration and be black.*/
 a {
    
     text-decoration: none;
@@ -53,7 +57,7 @@ img{
   width:100%;
 }
 
-div.categories
+.categories
 {
     display:flex;
     flex-direction:row;
@@ -61,7 +65,7 @@ div.categories
    
 
 }
-div.subCat
+.subCat
 {
     /* display:flex;
     flex-direction:column; */
