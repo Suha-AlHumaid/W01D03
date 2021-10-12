@@ -1,0 +1,26 @@
+
+body {
+    color: chocolate;
+    margin: 2%;
+}
+h1 , h2 {
+    background-color: maroon ;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#redP {
+    color: red;
+}
+
+img {
+    width: 300px;
+    height:300px;
+}
+#img1
+{
+
+    display: flex;
+    justify-content: center;
+
+}
