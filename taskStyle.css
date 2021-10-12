@@ -7,15 +7,18 @@
 /* Set the background colour of your navigation to “orangered”, and give it 3px padding. */
 ul {
     list-style: none;
+    padding: 0px;
+   
 }
 li {
+
     display: inline-block;
-    padding: 0 px;
+    padding: 3px;
     
 }
-.navigation {
+nav.navigation {
     background-color: orangered;
-    padding: 3px;
+
 }
 /* When links on the page are hovered over, the text should change to white. */
 
@@ -24,6 +27,55 @@ color: white;
 }
 /* All links should have no text-decoration and be black. (hent : see text-decoration ) */
 a {
+   
     text-decoration: none;
     color: black;
+
+}
+nav {
+    padding: 3px;
+}
+img{
+    object-fit:fill;
+    width: 100%;
+  
+}
+.headerImg {
+  object-fit:fill;
+  height: 200px;
+  width:100%;
+}
+
+div.categories
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+   
+
+}
+div.subCat
+{
+    /* display:flex;
+    flex-direction:column; */
+    border: 3px solid lightgray;
+   width: 33%;
+   height: 100%;
+
+}
+button {
+    background-color:  orangered;
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+ 
+    align-content: center;
+    float: right;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
 }
