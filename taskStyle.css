@@ -1,99 +1,86 @@
-body {
-    margin-top: 50px;
-    margin-bottom: 150px;
-}
-p {
-    font-size: 15px;
-}
-div.cont{
-    padding-left: 7px;
-}
 /* Centre your whole page, using 65% as your width. */
 .content {
   max-width: 65%;
   margin: auto;
+  margin-top: 50px;
+  margin-bottom: 150px;
 }
+p {
+  font-size: 15px;
+}
+div.cont {
+  padding-left: 7px;
+}
+
 /* Make your unordered list have no bullets, and change there display to inline-block and no padding . */
 /* Set the background colour of your navigation to “orangered”, and give it 3px padding. */
 ul {
-    list-style: none;
-    padding: 0px;
-   
+  list-style: none;
+  padding: 0px;
 }
 li {
-
-    display: inline-block;
-    padding: 3px;
-    
+  display: inline-block;
+  padding: 3px;
 }
 .navigation {
-    background-color: orangered;
-
+  background-color: orangered;
 }
 /* When links on the page are hovered over, the text should change to white. */
 
 a:hover {
-color: white;
+  color: white;
 }
 /* All links should have no text-decoration and be black.*/
 a {
-   
-    text-decoration: none;
-    color: black;
-
+  text-decoration: none;
+  color: black;
 }
 nav {
-    padding: 3px;
+  padding: 3px;
 }
-img{
-    object-fit: fill;
-    width: 100%;
-    height: 200px;
- 
+img {
+  object-fit: fill;
+  width: 100%;
+  height: 200px;
 }
 .headerImg {
-  object-fit:fill;
+  object-fit: fill;
   height: 200px;
-  width:100%;
+  width: 100%;
 }
 
-.categories
-{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-   
-
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 60vh;
 }
-.subCat
-{
-    /* display:flex;
-    flex-direction:column; */
-    border: 3px solid lightgray;
-   width: 33%;
-   display: inline-grid;
-
+.subCat {
+  display: flex;
+  border: 3px solid lightgray;
+  width: 33%;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
 button {
-    background-color:  orangered;
-    border: 5px solid black;
-    border-radius: 5px;
-    width: 50px;
-    height: 30px;
-
+  background-color: orangered;
+  border: 5px solid black;
+  border-radius: 5px;
+  width: 50px;
+  height: 30px;
 }
 .redbtn {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    float: right;
-    margin-bottom: 1px;
-    margin-right: 1px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 
+  margin-bottom: 1px;
+  margin-right: 1px;
 }
 
 footer {
-font-size: 15px;
-text-align: center;
+  font-size: 15px;
+  text-align: center;
 }
